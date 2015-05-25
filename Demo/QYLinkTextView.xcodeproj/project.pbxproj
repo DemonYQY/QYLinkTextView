@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5468A67B1B13644C00C4B024 /* QYLinkTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5468A67A1B13644C00C4B024 /* QYLinkTextViewTests.m */; };
+		5468A6891B13647C00C4B024 /* QYLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 5468A6861B13647C00C4B024 /* QYLink.m */; };
+		5468A68A1B13647C00C4B024 /* QYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5468A6881B13647C00C4B024 /* QYTextView.m */; };
+		54A70E651B1367090039DC46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A70E5A1B1367090039DC46 /* AppDelegate.m */; };
+		54A70E661B1367090039DC46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54A70E5C1B1367090039DC46 /* LaunchScreen.xib */; };
+		54A70E671B1367090039DC46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A70E5E1B1367090039DC46 /* Main.storyboard */; };
+		54A70E681B1367090039DC46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A70E601B1367090039DC46 /* Images.xcassets */; };
+		54A70E691B1367090039DC46 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54A70E611B1367090039DC46 /* Info.plist */; };
+		54A70E6A1B1367090039DC46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A70E621B1367090039DC46 /* main.m */; };
+		54A70E6B1B1367090039DC46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A70E641B1367090039DC46 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5468A6751B13644C00C4B024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5468A6531B13644C00C4B024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5468A65A1B13644C00C4B024;
+			remoteInfo = QYLinkTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5468A65B1B13644C00C4B024 /* QYLinkTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYLinkTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5468A6741B13644C00C4B024 /* QYLinkTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYLinkTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5468A6791B13644C00C4B024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5468A67A1B13644C00C4B024 /* QYLinkTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYLinkTextViewTests.m; sourceTree = "<group>"; };
+		5468A6851B13647C00C4B024 /* QYLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYLink.h; sourceTree = "<group>"; };
+		5468A6861B13647C00C4B024 /* QYLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYLink.m; sourceTree = "<group>"; };
+		5468A6871B13647C00C4B024 /* QYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTextView.h; sourceTree = "<group>"; };
+		5468A6881B13647C00C4B024 /* QYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTextView.m; sourceTree = "<group>"; };
+		54A70E591B1367090039DC46 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = QYLinkTextView/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		54A70E5A1B1367090039DC46 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = QYLinkTextView/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		54A70E5D1B1367090039DC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		54A70E5F1B1367090039DC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		54A70E601B1367090039DC46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = QYLinkTextView/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		54A70E611B1367090039DC46 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = QYLinkTextView/Info.plist; sourceTree = SOURCE_ROOT; };
+		54A70E621B1367090039DC46 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = QYLinkTextView/main.m; sourceTree = SOURCE_ROOT; };
+		54A70E631B1367090039DC46 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = QYLinkTextView/ViewController.h; sourceTree = SOURCE_ROOT; };
+		54A70E641B1367090039DC46 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = QYLinkTextView/ViewController.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5468A6581B13644C00C4B024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5468A6711B13644C00C4B024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5468A6521B13644C00C4B024 = {
+			isa = PBXGroup;
+			children = (
+				5468A65D1B13644C00C4B024 /* QYLinkTextView */,
+				5468A6771B13644C00C4B024 /* QYLinkTextViewTests */,
+				5468A65C1B13644C00C4B024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5468A65C1B13644C00C4B024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5468A65B1B13644C00C4B024 /* QYLinkTextView.app */,
+				5468A6741B13644C00C4B024 /* QYLinkTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5468A65D1B13644C00C4B024 /* QYLinkTextView */ = {
+			isa = PBXGroup;
+			children = (
+				5468A68C1B13669300C4B024 /* Demo */,
+				5468A6841B13646A00C4B024 /* QYLinkTextView */,
+				5468A65E1B13644C00C4B024 /* Supporting Files */,
+			);
+			path = QYLinkTextView;
+			sourceTree = "<group>";
+		};
+		5468A65E1B13644C00C4B024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5468A6771B13644C00C4B024 /* QYLinkTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5468A67A1B13644C00C4B024 /* QYLinkTextViewTests.m */,
+				5468A6781B13644C00C4B024 /* Supporting Files */,
+			);
+			path = QYLinkTextViewTests;
+			sourceTree = "<group>";
+		};
+		5468A6781B13644C00C4B024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5468A6791B13644C00C4B024 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5468A6841B13646A00C4B024 /* QYLinkTextView */ = {
+			isa = PBXGroup;
+			children = (
+				5468A6851B13647C00C4B024 /* QYLink.h */,
+				5468A6861B13647C00C4B024 /* QYLink.m */,
+				5468A6871B13647C00C4B024 /* QYTextView.h */,
+				5468A6881B13647C00C4B024 /* QYTextView.m */,
+			);
+			path = QYLinkTextView;
+			sourceTree = "<group>";
+		};
+		5468A68C1B13669300C4B024 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				54A70E591B1367090039DC46 /* AppDelegate.h */,
+				54A70E5A1B1367090039DC46 /* AppDelegate.m */,
+				54A70E5B1B1367090039DC46 /* Base.lproj */,
+				54A70E601B1367090039DC46 /* Images.xcassets */,
+				54A70E611B1367090039DC46 /* Info.plist */,
+				54A70E621B1367090039DC46 /* main.m */,
+				54A70E631B1367090039DC46 /* ViewController.h */,
+				54A70E641B1367090039DC46 /* ViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		54A70E5B1B1367090039DC46 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				54A70E5C1B1367090039DC46 /* LaunchScreen.xib */,
+				54A70E5E1B1367090039DC46 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = QYLinkTextView/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5468A65A1B13644C00C4B024 /* QYLinkTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5468A67E1B13644C00C4B024 /* Build configuration list for PBXNativeTarget "QYLinkTextView" */;
+			buildPhases = (
+				5468A6571B13644C00C4B024 /* Sources */,
+				5468A6581B13644C00C4B024 /* Frameworks */,
+				5468A6591B13644C00C4B024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYLinkTextView;
+			productName = QYLinkTextView;
+			productReference = 5468A65B1B13644C00C4B024 /* QYLinkTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5468A6731B13644C00C4B024 /* QYLinkTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5468A6811B13644C00C4B024 /* Build configuration list for PBXNativeTarget "QYLinkTextViewTests" */;
+			buildPhases = (
+				5468A6701B13644C00C4B024 /* Sources */,
+				5468A6711B13644C00C4B024 /* Frameworks */,
+				5468A6721B13644C00C4B024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5468A6761B13644C00C4B024 /* PBXTargetDependency */,
+			);
+			name = QYLinkTextViewTests;
+			productName = QYLinkTextViewTests;
+			productReference = 5468A6741B13644C00C4B024 /* QYLinkTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5468A6531B13644C00C4B024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = QY;
+				TargetAttributes = {
+					5468A65A1B13644C00C4B024 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5468A6731B13644C00C4B024 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5468A65A1B13644C00C4B024;
+					};
+				};
+			};
+			buildConfigurationList = 5468A6561B13644C00C4B024 /* Build configuration list for PBXProject "QYLinkTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5468A6521B13644C00C4B024;
+			productRefGroup = 5468A65C1B13644C00C4B024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5468A65A1B13644C00C4B024 /* QYLinkTextView */,
+				5468A6731B13644C00C4B024 /* QYLinkTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5468A6591B13644C00C4B024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A70E691B1367090039DC46 /* Info.plist in Resources */,
+				54A70E681B1367090039DC46 /* Images.xcassets in Resources */,
+				54A70E661B1367090039DC46 /* LaunchScreen.xib in Resources */,
+				54A70E671B1367090039DC46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5468A6721B13644C00C4B024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5468A6571B13644C00C4B024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5468A68A1B13647C00C4B024 /* QYTextView.m in Sources */,
+				5468A6891B13647C00C4B024 /* QYLink.m in Sources */,
+				54A70E6A1B1367090039DC46 /* main.m in Sources */,
+				54A70E651B1367090039DC46 /* AppDelegate.m in Sources */,
+				54A70E6B1B1367090039DC46 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5468A6701B13644C00C4B024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5468A67B1B13644C00C4B024 /* QYLinkTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5468A6761B13644C00C4B024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5468A65A1B13644C00C4B024 /* QYLinkTextView */;
+			targetProxy = 5468A6751B13644C00C4B024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54A70E5C1B1367090039DC46 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A70E5D1B1367090039DC46 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		54A70E5E1B1367090039DC46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A70E5F1B1367090039DC46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5468A67C1B13644C00C4B024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5468A67D1B13644C00C4B024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5468A67F1B13644C00C4B024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QYLinkTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5468A6801B13644C00C4B024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QYLinkTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5468A6821B13644C00C4B024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QYLinkTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYLinkTextView.app/QYLinkTextView";
+			};
+			name = Debug;
+		};
+		5468A6831B13644C00C4B024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QYLinkTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYLinkTextView.app/QYLinkTextView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5468A6561B13644C00C4B024 /* Build configuration list for PBXProject "QYLinkTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5468A67C1B13644C00C4B024 /* Debug */,
+				5468A67D1B13644C00C4B024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5468A67E1B13644C00C4B024 /* Build configuration list for PBXNativeTarget "QYLinkTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5468A67F1B13644C00C4B024 /* Debug */,
+				5468A6801B13644C00C4B024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5468A6811B13644C00C4B024 /* Build configuration list for PBXNativeTarget "QYLinkTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5468A6821B13644C00C4B024 /* Debug */,
+				5468A6831B13644C00C4B024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5468A6531B13644C00C4B024 /* Project object */;
+}
