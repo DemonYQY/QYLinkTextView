@@ -10,9 +10,9 @@
 @class QYTextView;
 
 /** 链接替换文本 */
-static NSString * const defaultReplacedString = @"我是链接";
+static NSString * const defaultReplacedString = @"我是link";
 /** 链接默认背景 */
-#define defaultLinkBackgroundColor [UIColor orangeColor]
+#define defaultLinkBackgroundColor [UIColor greenColor]
 /** 链接点击背景 */
 #define defaultLinkClickingBackgroundColor [UIColor redColor]
 

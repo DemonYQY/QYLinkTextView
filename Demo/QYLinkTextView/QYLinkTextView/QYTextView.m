@@ -9,6 +9,16 @@
 #import "QYTextView.h"
 #import "QYLink.h"
 
+// 断言
+#define MJAssert2(condition, desc, returnValue) \
+if ((condition) == NO) { \
+NSString *file = [NSString stringWithUTF8String:__FILE__]; \
+NSLog(@"\n警告文件：%@\n警告行数：第%d行\n警告方法：%s\n警告描述：%@", file, __LINE__,  __FUNCTION__, desc); \
+return returnValue; \
+}
+
+#define MJAssert(condition, desc) MJAssert2(condition, desc, )
+
 @interface QYTextView ()
 /**
  *  链接检测器
@@ -62,6 +72,7 @@
         link.URL = result.URL;
         if (defaultReplacedString && defaultReplacedString.length) { // 需要替换字符串
             NSRange absoluteRange = [tempStrM rangeOfString:result.URL.absoluteString];
+            MJAssert(absoluteRange.location < tempStrM.length, @"URL异常");
             [tempStrM replaceCharactersInRange:absoluteRange withString:defaultReplacedString];
             
             link.range = NSMakeRange(absoluteRange.location, defaultReplacedString.length);
