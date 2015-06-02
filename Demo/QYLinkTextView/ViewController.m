@@ -18,7 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.textView.originalString = @"呵呵http://www.baidu.com&哈哈哈哈哈哈https://www.sina.com，yeah";
+    self.textView.originalString = @"呵呵http://www.baidu.com 哈哈哈哈哈哈https://www.sina.com，yeah";
+    self.textView.font = [UIFont systemFontOfSize:20];
 }
 #pragma mark - QYTextViewDelegate
 - (void)textView:(QYTextView *)textView didClickLinkWithURL:(NSURL *)linkURL

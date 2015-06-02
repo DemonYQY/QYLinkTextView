@@ -57,7 +57,6 @@ return returnValue; \
     self.scrollEnabled = NO;
     self.userInteractionEnabled = NO;
     self.textContainerInset = UIEdgeInsetsMake(0, -5, 0, -5);
-    self.backgroundColor = [UIColor clearColor];
 }
 #pragma mark - private method
 - (void)createLinksWithStr:(NSString *)str
@@ -103,6 +102,7 @@ return returnValue; \
     NSMutableArray *mutableRects = [NSMutableArray array];
     for (UITextSelectionRect *selectionRect in selectionRects) {
         // 有可能出现宽或高为0的错误值
+        NSLog(@"%f, %f", selectionRect.rect.size.width, selectionRect.rect.size.height);
         if (!selectionRect.rect.size.width || !selectionRect.rect.size.height) continue;
         // 添加到link的范围数组中
         [mutableRects addObject:selectionRect];
@@ -148,7 +148,6 @@ return returnValue; \
     QYLink *touchingLink = [self touchingLinkWithPoint:touchPoint];
     [self showClinkingBackgroundWithTouchingLink:touchingLink];
 }
-
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
     UITouch *touch = [touches anyObject];
@@ -164,7 +163,6 @@ return returnValue; \
     // 相当于触摸被取消
     [self touchesCancelled:touches withEvent:event];
 }
-
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
     UITouch *touch = [touches anyObject];
@@ -187,6 +185,14 @@ return returnValue; \
 {
     _originalString = originalString;
     [self createLinksWithStr:originalString];
+}
+- (void)setFont:(UIFont *)font
+{
+    [super setFont:font];
+    for (QYLink *link in self.linkArray) {
+        // 添加链接的位置
+        [self addLinkRectsWithLink:link];
+    }
 }
 #pragma mark - 懒加载
 - (NSDataDetector *)linkDetector
